@@ -1,6 +1,10 @@
 body{
     background-color: #deb5ac;
 }
+@font-face {
+    font-family: mulish;
+    src: url(mulish.ttf);
+}
 div.container{
     box-sizing: border-box;
     height: 500px;
@@ -10,7 +14,7 @@ div.container{
     margin-top: 100px;
     text-align: center;
     padding: 20px 0px;
-    font-family: cursive;
+    font-family: mulish;
     border-radius: 30px;
     box-shadow: 0 0 20px #aa3217;
 }
